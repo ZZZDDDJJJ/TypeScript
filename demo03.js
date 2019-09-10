@@ -1,0 +1,22 @@
+"use strict";
+var age = 18;
+var stature = 178.5;
+console.log(age);
+console.log(stature);
+console.log('----------------------');
+var jun = '君 zdj';
+console.log(jun);
+var b = true;
+var c = false;
+console.log('-------------------');
+var REN;
+(function (REN) {
+    REN["man"] = "\u7537\u4EBA";
+    REN["woman"] = "\u5973\u4EBA";
+    REN["yao"] = "\u5996";
+})(REN || (REN = {}));
+console.log(REN.yao);
+var t = 10;
+t == 'jun';
+t = true;
+console.log(t);
